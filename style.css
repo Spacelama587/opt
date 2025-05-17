@@ -356,7 +356,7 @@ html {
 .contact-section {
   width: 100%;
   min-height: 400px;
-  background: url("../../../assets/images/contact-section-bg.min.webp") 0 0 /
+  background: url("./images/contact-section-bg.min.webp") 0 0 /
     cover no-repeat;
   padding-top: 30px;
   padding-bottom: 30px;
