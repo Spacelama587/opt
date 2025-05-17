@@ -206,11 +206,8 @@ html {
   padding-top: 40px;
   padding-bottom: 40px;
   align-items: center;
-  /* Start with no background image */
-  background-image: none;
-  background-position: center right -200px;
-  background-size: auto 100%;
-  background-repeat: no-repeat;
+  background: url("./images/hero-bg.min.webp") center right -200px /
+    auto 100% no-repeat;
 }
 .title-wrap {
   flex-direction: column;
@@ -359,11 +356,8 @@ html {
 .contact-section {
   width: 100%;
   min-height: 400px;
-  /* Start with no background image */
-  background-image: none;
-  background-position: 0 0;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url("./images/contact-section-bg.min.webp") 0 0 /
+    cover no-repeat;
   padding-top: 30px;
   padding-bottom: 30px;
   display: flex;
