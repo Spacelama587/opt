@@ -41,9 +41,9 @@ html {
   max-width: 90%;
   margin: auto;
 }
-.lazybg {
+/* .lazybg {
   background-image: none !important;
-}
+} */
 .navbar {
   width: 100%;
   height: 90px;
@@ -207,13 +207,15 @@ html {
   padding-top: 40px;
   padding-bottom: 40px;
   align-items: center;
-  background-color: #your-page-background; /* Match your page background */
-  background-image: url("./images/hero-bg.min.webp");
   background-position: center right -200px;
   background-size: auto 100%;
   background-repeat: no-repeat;
-  will-change: background-image; /* Hint to browser for optimization */
-  contain: layout; /* Helps with browser layout calculations */
+  will-change: background-image;
+  contain: layout;
+}
+
+.lazybg {
+  background-image: none !important;
 }
 
 .title-wrap {
