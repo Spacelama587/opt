@@ -199,6 +199,7 @@ html {
   display: flex;
   position: relative;
 }
+
 .hero-area {
   width: 100%;
   height: auto;
@@ -206,9 +207,12 @@ html {
   padding-top: 40px;
   padding-bottom: 40px;
   align-items: center;
-  background: url("./images/hero-bg.min.webp") center right -200px /
-    auto 100% no-repeat;
+  /* Background properties set without the image initially */
+  background-position: center right -200px;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
 }
+
 .title-wrap {
   flex-direction: column;
   gap: 5px;
